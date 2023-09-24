@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-image: url(pexels-travis-blessing-1363876.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(27, 78, 94);
+  border-radius: 9px;
+  cursor: pointer;
+  box-shadow: inset;
+  background-color: #a2a2a2;
+  border-radius: 100px;
+  box-shadow: rgba(195, 87, 87, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.15) 0 1px 2px,rgba(187, 44, 44, 0.15) 0 2px 4px,rgba(187, 44, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 44, 44, 0.15) 0 16px 32px;
+  color: rgb(128, 5, 5);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+.button:hover {
+  box-shadow: rgb(255, 255, 255) 0 -25px 18px -14px inset,rgba(255, 255, 255) 0 1px 2px,rgba(255, 255, 255) 0 2px 4px,rgba(255, 255, 255) 0 4px 8px,rgba(255, 255, 255) 0 8px 16px,rgba(255, 255, 255) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+   
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+}

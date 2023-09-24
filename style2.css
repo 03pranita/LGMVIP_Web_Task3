@@ -1,0 +1,25 @@
+.text-center{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 40px 0px 0px 0px;
+    color: rgb(67, 234, 137);
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
